@@ -75,4 +75,17 @@ class Person
             "blah blah blah blah blah"
         end
     end
+
+    # def start_conversation(friend, topic)
+    #     case topic 
+    #     when "politics"
+    #       [self, friend].each { |person| person.happiness -= 2 }
+    #       "blah blah partisan blah lobbyist"
+    #     when "weather"
+    #       [self, friend].each { |person| person.happiness += 1 }
+    #       "blah blah sun blah rain"
+    #     else
+    #       "blah blah blah blah blah"
+    #     end
+    #   end
 end
